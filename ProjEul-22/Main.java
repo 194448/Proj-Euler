@@ -1,3 +1,9 @@
+/*
+Thomas Tipper Festing
+2020-12-17
+Proj euler 22
+*/
+
 import java.util.Scanner;
 import java.util.Arrays;
 
