@@ -1,0 +1,14 @@
+since m is 10^8, by finding all numbers below it(use Sieve of Eratosthenes) you can use them to go off the rest of the program.
+
+use a for loop going from highest to lowest, check if a number is divisible by the value using n%Num == 0. if true, use a loop to keep dividing by that value until it cannot evenly divide. after it is fully divided: total+= num. and so on through the lower values.
+
+when the loop has reached n/2 and if n%2 != 0, n--
+all of n are composite numbers so must bruteforce the rest because of how long it would take to figure out a formula to work 100%;
+
+check with a comfirmed sample(∑ s(n,10^3) for 1<= n<=10^6 = 631960606) in early tests to make sure the program can run before attempting the entire thing, use correct data types so that it doesnt overflow.
+
+
+
+
+
+replit wont work with the ammount of memory used(for the LinkedLists, everything else works fine besides how long it takes to run), just going to use sample question in code, plan to finish this after course.
