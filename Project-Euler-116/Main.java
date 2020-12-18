@@ -1,3 +1,8 @@
+/*
+Thomas Tipper Festing
+2020-12-17
+Proj Euler 116
+*/
 class Main {
   public static long[] temp;
   public static long calc(int x, int n){
