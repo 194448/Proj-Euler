@@ -1,3 +1,8 @@
+/*
+Thomas Tipper Festing
+2020-12-17
+Proj euler 25
+*/
 import java.math.BigInteger;
 
 class Main {
